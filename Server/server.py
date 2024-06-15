@@ -1,6 +1,7 @@
 from flask import Flask, json, request, jsonify, send_file
 import os
-
+# myenv\Scripts\activate
+# python server.py 
 app = Flask(__name__)
 
 SAVE_DIRECTORY = 'json_files'
